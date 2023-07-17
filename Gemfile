@@ -12,7 +12,9 @@ gem "jekyll", "~> 4.3.2"
 # Default theme; feel free to change this
 # https://jekyllthemes.io/free
 # http://jekyllthemes.org/
-gem "minima"
+# gem "minima"
+gem "minimal-mistakes-jekyll"
+gem 'jekyll-include-cache'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

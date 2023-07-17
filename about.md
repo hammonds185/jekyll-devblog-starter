@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+
+
+------------------------------------------------------------------------------------------------------
 This will be your about page. You may use this, or you can put all this information on your homepage. Completely your choice!
 
 If you remove your about page:
