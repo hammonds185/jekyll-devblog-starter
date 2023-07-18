@@ -4,6 +4,6 @@
 // Per the documentation (https://jekyllrb.com/docs/assets/),
 // jekyll requires us to start our sass files with ---\n----
 @import "styles";
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

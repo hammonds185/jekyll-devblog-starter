@@ -46,7 +46,7 @@ sass:
 collections_dir: _collections
 collections:
   blog:
-    title: Blog
+    title: Open Source Blogs
     output: true
     permalink: /blog/:title
     canonical_link: https://www.your-site-title.com/blog/:title
@@ -71,3 +71,45 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+
+# Site Author
+author:
+  name             : "Courtney Hammonds"
+  avatar           : "/assets/images/me.jpg"
+  bio              : "4th Year Computer Science Student at The Ohio State University"
+  location         : "Cincinnati, Ohio"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hammonds185"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
