@@ -1,6 +1,6 @@
 ---
-layout: post
-title: About
+layout: posts
+title: Hey! It's Courtney!!
 permalink: /about/
 author_profile: true
 ---
@@ -8,7 +8,7 @@ author_profile: true
 
 
 ------------------------------------------------------------------------------------------------------
-This is MY about page. You may use this, or you can put all this information on your homepage. Completely your choice!
+This is MY about page. I will introduce myself on it one of these good ole days. Probably include some resume stuff!!! I can also get a little personal about my other passions.
 
 
 
