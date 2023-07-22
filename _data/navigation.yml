@@ -1,10 +1,11 @@
-- name: Projects
-  link: /projects
-- name: Blog
-  link: /blog
-
-# If you remove your about page, remember to remove the lines below
-- name: About
-  link: /about
-# And if you are mega inspired, feel free to create a 301 redirect
-# from your about page to your homepage
+# main links
+main:
+  - title: "About Me"
+    url: /about/
+  - title: "Blog Posts"
+    url: /blog/
+  - title: "Projects"
+  - title: "Sample Collections"
+    url: /collection-archive/
+  - title: "Example"
+    url: /post-archive-feature-rows/

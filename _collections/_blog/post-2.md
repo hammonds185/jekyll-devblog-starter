@@ -1,15 +1,13 @@
 ---
-layout: post
-title: 'Post 2'
+layout: posts
+title: 'Post 2: Potential Contributions'
 description: 5 things to potentially contribute to
-canonical_url: "alexye.me/blog/how-to-create-jekyll-components/"
+canonical_url: ""
 ---
 
 
-Create a new markdown (.md) file to begin a new blog post. Make sure you populate the front matter with a title, description, and date. In this one, create a list of open source projects that you find interesting.
+Here are my 5 project suggestions
 
-
-For each project, make sure you write about:
 1. minecraft projects
 What the project is: Glowstone
 What it intends to solve: A fast, customizable and compatible open source server for Minecraft: Java Edition

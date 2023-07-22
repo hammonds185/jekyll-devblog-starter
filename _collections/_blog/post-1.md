@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: posts
 title: 'Beginning the Journey!'
+show_date: true
+date: 2023-07-01 
 description: Intro to OSS
 canonical_url: "alexye.me/blog/how-to-create-jekyll-components/"
 ---

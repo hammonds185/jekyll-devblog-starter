@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: 'Example Blog Post: Jekyll "Components"'
 description: An example blog post that introduces a technique for building components in Jekyll.
 canonical_url: "alexye.me/blog/how-to-create-jekyll-components/"

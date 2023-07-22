@@ -1,19 +1,46 @@
 ---
-layout: default
+layout: home
+author_profile: false
+excerpt: "Follow me on my Computer Science Journey!!"
+header:
+  overlay_image: /assets/images/tech_n_arts.png
+  show_overlay_excerpt: true
+feature_row1:
+  - image_path: assets/images/OSS.jpg
+    alt: "placeholder image 1"
+    title: "What is OSS"
+    excerpt: "Getting to Know Open Source Software"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/magnify.jpeg
+    alt: "placeholder image 2"
+    title: "Project Discovery"
+    excerpt: 'Finding Projects to Contribute to"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
-
-<h1>DevDiaries</h1>
-
-<p>Courtney Hammonds Open Source Development Blog</p>
-
+<!--
 <figure>
-  <img src="assets/images/red-panda-small.jpg"
-  alt="If I was a red panda" 
+  <img src="assets/images/tech_n_arts.png"
+  alt="Diverse Art meets Tech" 
 />
-  <figcaption>Red Panda Portrait (maybe put a picture/art of you instead!)</figcaption>
+  <figcaption></figcaption>
 </figure>
+-->
+
+<h1>Courtney Hammonds Open Source Development Blog</h1>
+<p>
+  Hi! Im Courtney Hammonds and I am a 4th Year Computer and Information Science Student at The Ohio State University.
+</p>
+{% include feature_row id="feature_row1" type="left" %}
+
+{% include feature_row id="feature_row2" type="right" %}
 
 
+<!--
 <p>You can put professional highlights, a summary/bio, and/or links to other parts of your website such as your 
   <a href="/projects">projects</a> or your <a href="blog">devblog</a> here.</p>
 
@@ -33,3 +60,4 @@ layout: default
   <li><a href="https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/">Deploy on Netlify</a> (I recommend this)</li>
   <li><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll">Deploy with GitHub Pages</a> (you need to worry about <a href="https://pages.github.com/versions/">version compatibility</a> in your <code>Gemfile</code> with this approach)</li>
 </ul>
+-->
